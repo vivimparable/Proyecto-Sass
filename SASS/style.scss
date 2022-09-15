@@ -1,0 +1,69 @@
+@import "colors";
+@import"footer";
+@import "header";
+@import "main";
+@import"mediaq";
+@import "navegacion";
+
+
+/* Globales MUST*/
+
+html {
+    box-sizing: border-box; /*1*/
+    font-size: 62.5%;/*2*/
+  /* truquito para así poder hacer 1 rem igual a 10 pixel*/
+  
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  /*Globales*/
+
+  body{
+
+    background-color: $ColorPurpura;
+    font-size: 1.6rem;
+    line-height: 1.5;/*sin rem*/
+
+  }
+
+  p{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:$ColorBlanco;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  img{
+   width: 100%; 
+  }
+
+  .contenedor{
+    max-width: 120rem; /*siempre max width y en rem para que así se encoja bien*/
+    margin: auto;
+  }
+
+  h1,h2,h3{
+    text-align: center;
+    font-family: $Fuente;
+    color: $ColorAmarillo;
+  }
+
+h1{
+  font-size: 4rem;
+}
+
+h2{
+  font-size: 3.2rem;
+}
+
+h3{
+font-size:2.4rem;
+}
+
+  
